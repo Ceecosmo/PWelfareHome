@@ -1,12 +1,12 @@
 
 import React, { useEffect } from 'react';
-import NAV from './components/Headers'
-import HOME from './components/HomePage'
-import SERVICE from './components/Service'
-import TRACKING from './components/Tracking'
-import CONTACT from './components/Contact'
-import SUPPORTUS from './components/supportUs'
-import FOOTER from './components/Footer'
+import NAV from '/components/Headers'
+import HOME from '/components/HomePage'
+import SERVICE from '/components/Service'
+import TRACKING from '/components/Tracking'
+import CONTACT from '/components/Contact'
+import SUPPORTUS from '/components/supportUs'
+import FOOTER from '/components/Footer'
 
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import AOS from 'aos';

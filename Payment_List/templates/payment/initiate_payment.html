@@ -61,26 +61,28 @@
                 <div class="container pt-5">
                      <h5 class="mt-2">ADD YOUR SUPPORT HERE "No amount is small"</h5>
                     <div class="d-flex mt-3">
+                     <div class="me-2">
+                            <label style="font-size: 20px;" for="">Full Name</label>
+                            <div> {% render_field payment_form.creditors_address class="form-control"%} </div>
+                        </div>
 
-                        <div class="me-2">
+                       
+                           <div class="me-2">
                             <label style="font-size: 20px;" for="">Add Amount</label>
                             <div> {% render_field payment_form.amount class="form-control" %}</div>
                         </div>
 
 
+                      
+                    </div> 
 
-                        <div class="mb-3">
+                    <div class="d-flex">
+                         <div class="mb-3">
                             <label style="font-size: 20px;" for="">Your Emaill Address</label>
                             <div>{% render_field payment_form.email class="form-control" %}
                             </div>
                         </div>
-                    </div> 
-
-                    <div class="d-flex">
-                        <div class="me-2">
-                            <label style="font-size: 20px;" for="">Your Address</label>
-                            <div> {% render_field payment_form.creditors_address class="form-control"%} </div>
-                        </div>
+                      
 
 
                         <div class="mb-3">

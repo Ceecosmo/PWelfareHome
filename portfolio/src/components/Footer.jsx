@@ -1,8 +1,8 @@
 import React from 'react'
-import galary1 from '../assets/images/fada12.jpeg'
-import galary2 from '../assets/images/fada10.jpeg'
-import galary3 from '../assets/images/fada11.jpeg'
-import galary4 from '../assets/images/fada12.jpeg'
+import galary1 from '/assets/images/fada12.jpeg'
+import galary2 from '/assets/images/fada10.jpeg'
+import galary3 from '/assets/images/fada11.jpeg'
+import galary4 from '/assets/images/fada12.jpeg'
 import FORM2 from './Form2'
 
 function Footer() {

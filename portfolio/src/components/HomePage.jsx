@@ -1,8 +1,8 @@
 import React from 'react'
-import MARY from '../assets/images/Marys.jpg'
-import JESUS from '../assets/images/Jesus1sss.jpg'
-import About from '../assets/images/fada9.jpg'
-import Services from '../assets/images/fada4.jpg';
+import MARY from '/assets/images/Marys.jpg'
+import JESUS from '/assets/images/Jesus1sss.jpg'
+import About from '/assets/images/fada9.jpg'
+import Services from '/assets/images/fada4.jpg';
 import Card1 from './Card'
 import FORM from './Form'
 

@@ -50,7 +50,7 @@ function Headers() {
 {/* style={{ height: '70px'}}  */}
 <nav className="fixed-top navbar navbar-expand-lg bg-body-tertiary" >
   <div className="container" >
-    <a className=" navbar-brand " href="/" ><img src="/assets/images/logo.png" /></a>
+    <a className=" navbar-brand " href="/" ><img src="https://priestwelfare.onrender.com/assets/images/logo.png" /></a>
     <button className="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent " aria-expanded="false" aria-label="Toggle navigation ">
       
       <span className="navbar-toggler-icon "></span>

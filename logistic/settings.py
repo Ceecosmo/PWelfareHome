@@ -141,7 +141,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'logistic/staticfiles')
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-CORS_ORIGIN_WHITELIST = ['http://localhost:5173',
+CORS_ORIGIN_WHITELIST = ['https//priestwelfareadmin.onrender.com',
     #add other origins as needed
 ]
 

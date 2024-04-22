@@ -72,7 +72,7 @@ const [errors, setErrors] = useState({});
         try{
           
 
-          const response = await axios.post('http://localhost:8000/contact/postcontact/', formData);
+          const response = await axios.post('https://priestwelfareadmin.onrender.com/contact/postcontact/', formData);
           console.log('Form submitted:', response.data);
           //Assuming the form submission was successful, you can handle it here
            // Process form submission

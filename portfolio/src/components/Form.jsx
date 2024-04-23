@@ -3,11 +3,11 @@ import axios from 'axios'
 function Form() {
 
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    subject: '',
-    message: ''
+    name:'',
+    email:'', 
+    subject:'',
+    phone:'',
+    message:''
 });
 
 //error message
@@ -122,7 +122,7 @@ const [errors, setErrors] = useState({});
 </div>
 <div className="flex-grow-1 ms-2">
 
-<input type="text" name='subject'  value={formData.subject} placeholder='Subject' className={`form-control ${errors.name && 'is-invalid'}`} onChange={handleChange}/> 
+<input type="text" name='subject'  value={formData.subject} placeholder='Subject' className={`form-control ${errors.subject && 'is-invalid'}`} onChange={handleChange}/> 
 
 {errors.subject && <div className='invalid-feedback'>{errors.subject}</div>}
 </div>
@@ -130,7 +130,7 @@ const [errors, setErrors] = useState({});
 
 
 
-<textarea id="" cols="30" rows="10" className={`form-control mt-3 ${errors.name && 'is-invalid'}`} onChange={handleChange}  name="message"  value={formData.message}  placeholder='Enter your Message'></textarea>
+<textarea id="" cols="30" rows="10" className={`form-control mt-3 ${errors.message && 'is-invalid'}`} onChange={handleChange}  name="message"  value={formData.message}  placeholder='Enter your Message'></textarea>
 {errors.message && <div className='invalid-feedback'>{errors.message}</div>}
 
 
